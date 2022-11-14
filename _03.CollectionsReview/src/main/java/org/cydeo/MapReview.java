@@ -10,8 +10,8 @@ public class MapReview {
         Map<Integer,String> studentsMap=new HashMap<>();
         studentsMap.put(1, "Jack");
         studentsMap.put(2, "Julia");
-        String st= "JJavvaDDevelloopperr";
 
+        String st= "JJavvaDDevelloopperr";
         System.out.println(findFirstNonRepeating(st));
     }
     public static Character findFirstNonRepeating(String str){
