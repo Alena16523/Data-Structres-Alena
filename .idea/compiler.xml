@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dsa-05-Stacks" />
+        <module name="dsa-06-AlgorithmProblems" />
         <module name="algorithm-array" />
         <module name="algorithm_analysis" />
         <module name="01.AlgorithmAnalysis" />
