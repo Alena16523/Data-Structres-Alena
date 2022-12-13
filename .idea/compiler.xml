@@ -14,6 +14,7 @@
         <module name="_03.CollectionsReview" />
         <module name="dsa-04-LinkedLists" />
         <module name="02.Algorithm-Array" />
+        <module name="dsa-07-Queues" />
       </profile>
     </annotationProcessing>
   </component>
