@@ -13,6 +13,7 @@ public class SingleNumber {
         System.out.println(findSingle2(input));
         System.out.println(findSingle3(input));
         System.out.println(findSingle4(input));
+        
 
     }
 

@@ -10,6 +10,7 @@
         <module name="dsa-06-AlgorithmProblems" />
         <module name="algorithm-array" />
         <module name="algorithm_analysis" />
+        <module name="dsa-08-Trees" />
         <module name="01.AlgorithmAnalysis" />
         <module name="_03.CollectionsReview" />
         <module name="dsa-04-LinkedLists" />
