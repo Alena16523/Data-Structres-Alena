@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dsa-05-Stacks" />
         <module name="dsa-06-AlgorithmProblems" />
+        <module name="dsa-09-Heap" />
         <module name="algorithm-array" />
         <module name="algorithm_analysis" />
         <module name="dsa-08-Trees" />
