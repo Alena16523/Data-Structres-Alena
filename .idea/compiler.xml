@@ -17,6 +17,7 @@
         <module name="dsa-04-LinkedLists" />
         <module name="02.Algorithm-Array" />
         <module name="dsa-07-Queues" />
+        <module name="dsa-10-Search" />
       </profile>
     </annotationProcessing>
   </component>
