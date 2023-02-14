@@ -3,7 +3,8 @@ public class BiggestNumberInString {
     public static void main(String[] args) {
 
         String str = "100klh564abc365bg";
-        System.out.println(extractMaximum(str));
+       // System.out.println(extractMaximum(str));
+        biggestNumber(str);
 
     }
 
@@ -24,4 +25,27 @@ public class BiggestNumberInString {
         // Return maximum value
         return Math.max(res, num); //returning max of those 2 numbers
     }
+
+    static void biggestNumber(String s){
+        for(char each:s.toCharArray()){
+            if(Character.isLetter(each)){
+                s=s.replace(each, '/');
+            }
+        }
+
+        String[] arr=s.split("/");
+        int max=0;
+        for(String each: arr){
+            try{
+                if(Integer.parseInt(each)>max){
+                    max=Integer.parseInt(each);
+                }
+            }catch (RuntimeException e){
+            }
+
+        }
+        System.out.println(max);
+    }
+
+
 }

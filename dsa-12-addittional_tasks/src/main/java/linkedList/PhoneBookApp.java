@@ -138,7 +138,20 @@ public class PhoneBookApp {
                current=current.next;
                current2=current2.next;
            }
+        }
+    }
 
+    public void deleteDuplicatedNeighbors(){
+        Node current=head;
+
+        while(current!=null){
+
+            Node theNext=current.next;
+            while(theNext!=null && theNext.email.equals(current.email)){
+                theNext=theNext.next;
+            }
+            current.next=theNext;
+            current=theNext;
         }
 
     }
